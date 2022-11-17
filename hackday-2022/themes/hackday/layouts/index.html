@@ -1,0 +1,6 @@
+{{- define "main" -}}
+{{/* {{ partial "bookshop" .Params.sample }} */}}
+{{/* {{ partial "bookshop_partial" (slice "helper" (dict "lorem" "ipsum")) }} */}}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+{{ partial "bookshop" (slice "hero" (dict "hero_text" "Hello World")) }}
+{{- end -}}

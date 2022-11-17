@@ -1,0 +1,17 @@
+{
+  "name": "hackday-2022-bookshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bookshop/browser": "3.3.0",
+    "@bookshop/generate": "3.3.0",
+    "@bookshop/hugo-engine": "3.3.0"
+  }
+}

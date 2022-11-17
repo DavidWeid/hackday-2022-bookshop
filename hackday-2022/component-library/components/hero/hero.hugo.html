@@ -1,4 +1,11 @@
 <div class="c-hero">
     <h1>{{ .hero_text }}</h1>
-    {{ partial "bookshop" (slice "button" (dict "button_text" "Click me")) }}
+    {{ with .cta_button }}
+    {{ partial "bookshop" . }}
+    {{ end }}
+    <div class="column">
+        {{ range .column_components }}
+        {{ partial "bookshop" . }}
+        {{ end }}
+    </div>
 </div>

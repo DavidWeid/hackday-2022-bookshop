@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "Sample"
   description:
-  icon:
+  icon: drafts
   tags: []
 
 # Defines the structure of this component, as well as the default values
@@ -13,6 +13,10 @@ blueprint:
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
+  text: "Hello Preview!"
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  text:
+    type: "html"
+    comment: "This comment will appear in the CMS"

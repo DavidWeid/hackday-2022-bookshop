@@ -1,7 +1,7 @@
 {{- define "main" -}}
-{{/* {{ partial "bookshop" .Params.sample }} */}}
+{{/*  {{ partial "bookshop" .Params.sample }}  */}}
 {{/* {{ partial "bookshop_partial" (slice "helper" (dict "lorem" "ipsum")) }} */}}
-{{/*  {{ partial "bookshop" (slice "hero" (dict "hero_text" "Hello World" "cta_button" (dict "_bookshop_name" "button" "button_text" "TEXT"))) }}  */}}
+{{ partial "bookshop" (slice "hero" (dict "hero_text" "Hello World" "cta_button" (dict "_bookshop_name" "button" "button_text" "TEXT"))) }}
 {{/*  <hr></hr>  */}}
 {{ partial "bookshop_component_browser" }}
 <hr></hr>

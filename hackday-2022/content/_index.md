@@ -35,18 +35,6 @@ content_blocks:
     content_column_image: /images/esg-report/governance.png
   - _bookshop_name: content-two-column
     preheader:
-    header: Diversity, Equity & Inclusion
-    description: >-
-      Datadog employees are the driving force behind our company culture. We aim
-      to provide an environment that contributes to overall employee well-being
-      and encourages talent development. All employees have access to an
-      internal catalog of 100 courses, and an external library of more than
-      3,500 courses. We are focused on developing a diverse and inclusive
-      community where individuals of all backgrounds are seen and valued for who
-      they are.
-    content_column_image: /images/esg-report/dei.png
-  - _bookshop_name: content-two-column
-    preheader:
     header: Giving Back
     description: >-
       We believe that contributing to the well-being of communities and society
@@ -55,15 +43,4 @@ content_blocks:
       the world around us, including Black Lives Matter, COVID-19 relief, and
       more.
     content_column_image: /images/esg-report/giving.png
-  - _bookshop_name: content-two-column
-    preheader:
-    header: Sustainability Efforts
-    description: >-
-      We are continually evaluating ways to scale efficiently and reduce waste
-      production. Born and bred in the cloud, the Datadog platform leverages
-      economies of scale regarding carbon emissions and electricity usage while
-      enabling our customers to reduce their own carbon footprint. Our latest
-      version of the Datadog Agent uses 60 percent less CPU than previous
-      versions, which we believe results in a meaningful global impact.
-    content_column_image: /images/esg-report/sustainability.jpg
 ---

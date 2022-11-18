@@ -2,5 +2,5 @@
 @tailwind components;
 
 body {
-  @apply text-red-500 uppercase;
+  @apply text-blue-500 uppercase;
 }

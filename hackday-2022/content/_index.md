@@ -23,7 +23,36 @@ content_blocks:
   - _bookshop_name: content-two-column
     preheader:
     header: Governance
-    description: |
-      ESG is a key priority at Datadog, with direct oversight from the board of directors and management. Our board is composed of 50 percent racially/ethnically diverse members. Collectively, they possess the professional and industry knowledge, financial expertise, and high-level management experience that is necessary to oversee our business. We are committed to the highest standard of business ethics and strive to keep risk management, intellectual property protection, data security, and privacy at the forefront of our business.
+    description: >
+      ESG is a key priority at Datadog, with direct oversight from the board of
+      directors and management. Our board is composed of 50 percent
+      racially/ethnically diverse members. Collectively, they possess the
+      professional and industry knowledge, financial expertise, and high-level
+      management experience that is necessary to oversee our business. We are
+      committed to the highest standard of business ethics and strive to keep
+      risk management, intellectual property protection, data security, and
+      privacy at the forefront of our business.
     content_column_image: /images/esg-report/governance.png
+  - _bookshop_name: content-two-column
+    preheader:
+    header: Diversity, Equity & Inclusion
+    description: >-
+      Datadog employees are the driving force behind our company culture. We aim
+      to provide an environment that contributes to overall employee well-being
+      and encourages talent development. All employees have access to an
+      internal catalog of 100 courses, and an external library of more than
+      3,500 courses. We are focused on developing a diverse and inclusive
+      community where individuals of all backgrounds are seen and valued for who
+      they are.
+    content_column_image: /images/esg-report/dei.png
+  - _bookshop_name: content-two-column
+    preheader:
+    header: Giving Back
+    description: >-
+      We believe that contributing to the well-being of communities and society
+      around us is the right thing to do. Together with our global employees, we
+      donated over $4 million in 2021 to causes that impact our employees and
+      the world around us, including Black Lives Matter, COVID-19 relief, and
+      more.
+    content_column_image: /images/esg-report/giving.png
 ---

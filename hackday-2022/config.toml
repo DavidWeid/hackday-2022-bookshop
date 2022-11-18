@@ -1,4 +1,4 @@
-baseURL = ' https://charming-tuba.cloudvent.net'
+baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Hackday 2022 - Hugo Bookshop'
 theme = "hackday"

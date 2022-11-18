@@ -1,6 +1,20 @@
 @tailwind base;
 @tailwind components;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  @apply text-blue-500 uppercase;
+  @apply box-border overflow-x-hidden font-light proportional-nums min-h-screen m-0;
+  font-variant-numeric: proportional-nums;
+}
+
+.container {
+  @apply max-w-full mobile-lg:max-w-screen-mobile-lg tablet:max-w-screen-tablet tablet-lg:max-w-screen-tablet-lg desktop:max-w-screen-desktop desktop-lg:max-w-screen-desktop-lg mx-auto px-3.5 tablet:px-7;
+}
+
+a {
+  @apply no-underline;
+  color: inherit;
 }

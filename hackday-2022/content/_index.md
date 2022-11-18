@@ -20,7 +20,7 @@ content_blocks:
       our operations.
     cta_button:
       _bookshop_name: button
-      button_text: Read the report
+      button_text: Download the report
       btn_class: blue-btn
     hero_column_image: /images/esg-report/esg.png
   - _bookshop_name: content-two-column

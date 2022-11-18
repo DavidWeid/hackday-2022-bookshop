@@ -19,6 +19,7 @@ content_blocks:
     cta_button:
       _bookshop_name: button
       button_text: Read the report
+      btn_class: "blue-btn"
     hero_column_image: /images/esg-report/esg.png
   - _bookshop_name: content-two-column
     preheader:
@@ -43,4 +44,11 @@ content_blocks:
       the world around us, including Black Lives Matter, COVID-19 relief, and
       more.
     content_column_image: /images/esg-report/giving.png
+  - _bookshop_name: banner
+    text: Learn more about Datadog’s commitment to corporate responsibility in our ESG Report.
+    background_image: /images/esg-report/banner.png 
+    cta_button:
+      _bookshop_name: button
+      button_text: Read the report
+      btn_class: "white-btn"
 ---

@@ -651,6 +651,7 @@ a {
 @media (min-width: 768px) {
   .blue-btn {
     margin: auto;
+    width: 50%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
@@ -714,6 +715,7 @@ a {
 @media (min-width: 768px) {
   .white-btn {
     margin: auto;
+    width: 20%;
   }
 }
 

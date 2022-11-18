@@ -21,7 +21,7 @@ a {
 
 
 .blue-btn {
-  @apply py-3 tablet:py-4 tablet:px-8 text-white inline-flex justify-center items-center w-full border border-white rounded bg-blue-60 tablet:m-auto select-none hover:text-white hover:border-white hover:bg-blue-60 hover:bg-opacity-60;
+  @apply py-3 tablet:py-4 tablet:px-8 text-white inline-flex justify-center items-center w-full tablet:w-1/2 border border-white rounded bg-blue-60 tablet:m-auto select-none hover:text-white hover:border-white hover:bg-blue-60 hover:bg-opacity-60;
 }
 
 .blue-btn span {
@@ -29,7 +29,7 @@ a {
 }
 
 .white-btn {
-  @apply px-7 py-2 desktop:py-4 text-blue-60 inline-flex justify-center items-center w-full border border-transparent rounded bg-white tablet:m-auto select-none hover:text-blue-60 hover:border-transparent hover:bg-white hover:bg-opacity-80;
+  @apply px-7 py-2 desktop:py-4 text-blue-60 inline-flex justify-center items-center w-full tablet:w-1/5 border border-transparent rounded bg-white tablet:m-auto select-none hover:text-blue-60 hover:border-transparent hover:bg-white hover:bg-opacity-80;
 }
 
 .white-btn span {
@@ -65,6 +65,7 @@ a {
 .banner .banner-container .text {
   @apply tablet:w-6/12 desktop:w-7/12 text-white text-20 leading-26 text-center tablet:text-16 tablet:leading-20 tablet:text-left desktop:text-36 desktop:leading-40;
 }
+
 img {
   @apply w-full h-auto;
 }

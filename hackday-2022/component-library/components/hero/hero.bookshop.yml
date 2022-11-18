@@ -9,17 +9,17 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  preheading: ""
+  preheading: "Eye"
   hero_text: "Hello World from the hero!"
   background_image: ""
   cta_button: [bookshop:button!]
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  preheading: Prepare for new future
-  hero_text: Our work is <br>presentation of our <br>capabilities.
+  preheading: Preview preheading
+  hero_text: Preview hero text
   background_image: ""
-  cta_button: [bookshop:button]
+  cta_button: [bookshop:button!]
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

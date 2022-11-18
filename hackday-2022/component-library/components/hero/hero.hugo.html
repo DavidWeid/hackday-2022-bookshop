@@ -1,11 +1,6 @@
-<div class="c-hero lowercase text-white">
+<div class="c-hero">
     <h1>{{ .hero_text }}</h1>
     {{ with .cta_button }}
     {{ partial "bookshop" . }}
     {{ end }}
-    <div class="column">
-        {{ range .column_components }}
-        {{ partial "bookshop" . }}
-        {{ end }}
-    </div>
 </div>

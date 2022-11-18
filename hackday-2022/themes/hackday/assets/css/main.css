@@ -19,7 +19,6 @@ a {
   color: inherit;
 }
 
-
 .blue-btn {
   @apply py-3 tablet:py-4 tablet:px-8 text-white inline-flex justify-center items-center w-full tablet:w-1/2 border border-white rounded bg-blue-60 tablet:m-auto select-none hover:text-white hover:border-white hover:bg-blue-60 hover:bg-opacity-60;
 }
@@ -47,7 +46,6 @@ a {
 
 .stat-card .stat-typography {
   @apply pb-4 font-semibold text-blue-60 text-40 leading-30 tablet:text-32 desktop:text-46;
-
 }
 
 .stat-card .description-typography {
@@ -106,4 +104,8 @@ img {
 
 .content-header {
   @apply mb-8 text-28 leading-32 tablet:text-22 tablet:leading-28 desktop:text-36 desktop:leading-40 font-semibold;
+}
+
+.content-container:nth-child(odd) .content-column-text {
+  @apply order-1;
 }

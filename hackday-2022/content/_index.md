@@ -1,4 +1,6 @@
 ---
+title: ESG Report
+draft: false
 content_blocks:
   - _bookshop_name: hero
     preheader:

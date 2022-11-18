@@ -9,7 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <meta name="author" content="Themefisher">
     <meta name="generator" content="Themefisher Html5 Agency Template v1.0">
+    {{ $assets := newScratch }}
+    {{ $cssMain := resources.Get "css/compiled/main.css" }}
+    {{ $assets.Add "css" (slice $cssMain) }}
     {{- $bookshop_scss_files := partial "bookshop_scss" . -}}
+    {{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint "sha512" }}
     {{- $scss := $bookshop_scss_files | resources.Concat "css/bookshop.css" | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
-    <link rel="stylesheet" href="{{- $scss.Permalink -}}">
+    <link type="text/css" rel="stylesheet" href="{{- $scss.Permalink -}}">
+    <link type="text/css" rel="stylesheet" href="{{ $bundleCSS.RelPermalink }}"
+        integrity="{{ $bundleCSS.Data.Integrity }}" />
 </head>

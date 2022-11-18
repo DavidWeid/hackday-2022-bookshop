@@ -1,0 +1,16 @@
+<div class="container content-container">
+    <div class="content-column-text">
+        {{ with .preheader }}
+        <span class="content-preheader">{{ . | safeHTML }}</span>
+        {{ end }}
+
+        <h2 class="content-header">{{ .header | safeHTML }}</h2>
+
+        {{ with .description }}
+        <p class="content-description">{{ . | safeHTML}}</p>
+        {{ end }}
+    </div>
+    <div class="content-column-image">
+        <img src="{{ .content_column_image }}">
+    </div>
+</div>

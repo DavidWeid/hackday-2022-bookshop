@@ -1,6 +1,22 @@
-<div class="c-hero">
-    <h1>{{ .hero_text }}</h1>
-    {{ with .cta_button }}
-    {{ partial "bookshop" . }}
-    {{ end }}
-</div>
+<section class="hero-full-width-section {{ with .background_image }} hero-full-width-background-image{{ end }}" style="background-image:url('{{ .background_image }}');">
+    <div class="container hero-container">
+        <div class="hero-column-text">
+            {{ with .preheader }}
+            <span class="hero-preheader">{{ . | safeHTML }}</span>
+            {{ end }}
+
+            <h1 class="hero-header">{{ .header | safeHTML }}</h1>
+
+            {{ with .description }}
+            <p class="hero-description">{{ . | safeHTML}}</p>
+            {{ end }}
+
+            {{ with .cta_button }}
+            {{ partial "bookshop" . }}
+            {{ end }}
+        </div>
+        <div class="hero-column-image">
+            <img src="{{ .hero_column_image }}">
+        </div>
+    </div>
+</section>

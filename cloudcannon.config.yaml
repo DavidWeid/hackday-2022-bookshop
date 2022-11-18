@@ -2,5 +2,9 @@ collections_config:
   pages:
     _enabled_editors:
       - visual
-      
+
+_inputs:
+  content:
+    type: markdown
+
 data_config: true

@@ -21,7 +21,7 @@ content_blocks:
     cta_button:
       _bookshop_name: button
       button_text: Read the report
-      btn_class: "blue-btn"
+      btn_class: blue-btn
     hero_column_image: /images/esg-report/esg.png
   - _bookshop_name: content-two-column
     preheader:
@@ -39,14 +39,11 @@ content_blocks:
   - _bookshop_name: stat-row
     stat_card:
       - _bookshop_name: stat-card
-        stat: 100%
-        description: Win Rate
-      - _bookshop_name: stat-card
-        stat: 0%
-        description: Loss Rate
-      - _bookshop_name: stat-card
         stat: 50%
-        description: Rate
+        description: of our board
+      - _bookshop_name: stat-card
+        stat: '5'
+        description: community guilds
   - _bookshop_name: content-two-column
     preheader:
     header: Giving Back
@@ -58,10 +55,12 @@ content_blocks:
       more.
     content_column_image: /images/esg-report/giving.png
   - _bookshop_name: banner
-    text: Learn more about Datadog’s commitment to corporate responsibility in our ESG Report.
+    text: >-
+      Learn more about Datadog’s commitment to corporate responsibility in our
+      ESG Report.
     background_image: /images/esg-report/banner.png
     cta_button:
       _bookshop_name: button
       button_text: Read the report
-      btn_class: "white-btn"
+      btn_class: white-btn
 ---

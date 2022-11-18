@@ -18,3 +18,27 @@ a {
   @apply no-underline;
   color: inherit;
 }
+
+button {
+  @apply text-blue-60;
+}
+
+.hero-full-width-section {
+  @apply bg-grey-5 py-10 tablet:py-20;
+}
+
+.hero-container {
+  @apply container flex flex-col tablet:flex-row gap-8;
+}
+
+.hero-container > div {
+  @apply w-full tablet:w-1/2;
+}
+
+.hero-header {
+  @apply mb-8 text-blue-60 font-semibold text-36 leading-36 desktop:text-58 desktop:leading-58;
+}
+
+.hero-description {
+  @apply mb-6;
+}

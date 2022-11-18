@@ -3,23 +3,29 @@ spec:
   structures:
     - content_blocks
   label: Hero
-  description: Main page Hero block
-  icon: title
+  description: Hero block
+  icon: pending
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  preheading: "Eye"
-  hero_text: "Hello World from the hero!"
+  preheader: ""
+  header: ""
+  description: ""
   background_image: ""
-  cta_button: [bookshop:button!]
+  cta_button:
+    _bookshop_name: button
+    button_text: Click me
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  preheading: Preview preheading
-  hero_text: Preview hero text
+  preheader: Hero page
+  header: Hero
+  description: "Sample description text"
   background_image: ""
-  cta_button: [bookshop:button!]
+  cta_button:
+    _bookshop_name: button
+    button_text: Click me
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

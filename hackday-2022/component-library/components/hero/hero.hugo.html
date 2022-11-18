@@ -1,5 +1,5 @@
-<section class="hero-full-width-section">
-    <div class="hero-container">
+<section class="hero-full-width-section {{ with .background_image }} hero-full-width-background-image{{ end }}" style="background-image:url('{{ .background_image }}');">
+    <div class="container hero-container">
         <div class="hero-column-text">
             {{ with .preheader }}
             <span class="hero-preheader">{{ . | safeHTML }}</span>

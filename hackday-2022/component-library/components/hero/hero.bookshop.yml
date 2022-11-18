@@ -13,6 +13,7 @@ blueprint:
   header: ""
   description: ""
   background_image: ""
+  hero_column_image: ""
   cta_button:
     _bookshop_name: button
     button_text: Click me
@@ -23,6 +24,7 @@ preview:
   header: Hero
   description: "Sample description text"
   background_image: ""
+  hero_column_image: ""
   cta_button:
     _bookshop_name: button
     button_text: Click me

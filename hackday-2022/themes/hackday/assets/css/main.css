@@ -19,6 +19,10 @@ a {
   color: inherit;
 }
 
+img {
+  @apply w-full h-auto;
+}
+
 button {
   @apply text-blue-60;
 }
@@ -27,11 +31,17 @@ button {
   @apply bg-grey-5 py-10 tablet:py-20;
 }
 
-.hero-container {
-  @apply container flex flex-col tablet:flex-row gap-8;
+.hero-full-width-background-image {
+  @apply text-white;
 }
 
-.hero-container > div {
+.hero-container,
+.content-container {
+  @apply flex flex-col tablet:flex-row gap-8 items-center;
+}
+
+.hero-container > div,
+.content-container > div {
   @apply w-full tablet:w-1/2;
 }
 
@@ -39,6 +49,18 @@ button {
   @apply mb-8 text-blue-60 font-semibold text-36 leading-36 desktop:text-58 desktop:leading-58;
 }
 
+.hero-full-width-background-image .hero-header {
+  @apply text-white;
+}
+
 .hero-description {
   @apply mb-6;
+}
+
+.content-container {
+  @apply py-10 tablet:py-20;
+}
+
+.content-header {
+  @apply mb-8 text-28 leading-32 tablet:text-22 tablet:leading-28 desktop:text-36 desktop:leading-40 font-semibold;
 }

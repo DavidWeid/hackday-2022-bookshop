@@ -36,6 +36,17 @@ content_blocks:
       risk management, intellectual property protection, data security, and
       privacy at the forefront of our business.
     content_column_image: /images/esg-report/governance.png
+  - _bookshop_name: stat-row
+    stat_card:
+      - _bookshop_name: stat-card
+        stat: 100%
+        description: Win Rate
+      - _bookshop_name: stat-card
+        stat: 0%
+        description: Loss Rate
+      - _bookshop_name: stat-card
+        stat: 50%
+        description: Rate
   - _bookshop_name: content-two-column
     preheader:
     header: Giving Back
@@ -48,7 +59,7 @@ content_blocks:
     content_column_image: /images/esg-report/giving.png
   - _bookshop_name: banner
     text: Learn more about Datadog’s commitment to corporate responsibility in our ESG Report.
-    background_image: /images/esg-report/banner.png 
+    background_image: /images/esg-report/banner.png
     cta_button:
       _bookshop_name: button
       button_text: Read the report

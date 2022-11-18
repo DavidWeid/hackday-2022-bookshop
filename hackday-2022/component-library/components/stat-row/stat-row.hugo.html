@@ -1,0 +1,7 @@
+<div class="container stat-container">
+    {{ range .stat_card }}
+        <div class="stat-column">
+            {{ partial "bookshop" . }}
+        </div>
+    {{ end }}
+</div>

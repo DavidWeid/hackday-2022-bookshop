@@ -109,3 +109,10 @@ img {
 .content-container:nth-child(odd) .content-column-text {
   @apply order-1;
 }
+
+.stat-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

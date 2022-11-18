@@ -55,4 +55,15 @@ content_blocks:
       the world around us, including Black Lives Matter, COVID-19 relief, and
       more.
     content_column_image: /images/esg-report/giving.png
+  - _bookshop_name: content-two-column
+    preheader:
+    header: Sustainability Efforts
+    description: >-
+      We are continually evaluating ways to scale efficiently and reduce waste
+      production. Born and bred in the cloud, the Datadog platform leverages
+      economies of scale regarding carbon emissions and electricity usage while
+      enabling our customers to reduce their own carbon footprint. Our latest
+      version of the Datadog Agent uses 60 percent less CPU than previous
+      versions, which we believe results in a meaningful global impact.
+    content_column_image: /images/esg-report/sustainability.jpg
 ---

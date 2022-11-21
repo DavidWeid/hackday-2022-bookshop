@@ -14,3 +14,6 @@ This provides a great UI for content writers to edit content and to see their ch
 
 ### Resources
 [CloudCannon Bookshop Repo](https://github.com/CloudCannon/bookshop) and their [Hugo Reference Guide](https://github.com/CloudCannon/bookshop/blob/main/guides/hugo.adoc) used to build this project.
+
+### Demo
+https://user-images.githubusercontent.com/44077321/203143241-651565e8-e137-4ec7-b4be-c052291af0cb.mp4
